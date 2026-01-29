@@ -1,2 +1,2 @@
 print("Hello World!", end=" ")
-print("I will print on the same line.")
+print("I will print on the same line.")     # via end=" "

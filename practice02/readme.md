@@ -1,0 +1,1 @@
+some in the 6.py to 18.py I have connected some of the examples into one, because of the simplicity. Therefore, there are even though 15> examples, there are still more

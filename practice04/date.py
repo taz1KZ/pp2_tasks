@@ -1,8 +1,16 @@
+#Create a date object:
 import datetime
 
-x = datetime.datetime.now() #inputting to the miliseconds
+x = datetime.datetime(2020, 5, 17)
 
-print(x.year)   # only year output
-print(x.strftime("%A"))     #strftime converts numbers into readable(different func)
-#we can also use datetime() to initialize a time or class of time
+print(x)
+#The datetime() class also takes parameters for time and timezone (hour, minute, second, microsecond, tzone), but they are optional, and has a default value of 0, (None for timezone).
 
+
+#The strftime() Method
+#Display the name of the month:
+import datetime
+y = datetime.datetime.now()
+x = datetime.datetime(2018, 6, 1)
+
+print(x.strftime("%B"))
